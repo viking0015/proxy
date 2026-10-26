@@ -1,0 +1,11 @@
+{
+  "name": "proxy-project",
+  "version": "1.0.0",
+  "main": "proxy-server.js",
+  "scripts": {
+    "start": "node proxy-server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
