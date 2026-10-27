@@ -89,4 +89,4 @@ http.createServer(async (req, res) => {
     res.writeHead(502, { 'content-type': 'text/plain' });
     res.end('Could not fetch that page: ' + e.message);
   }
-}).listen(PORT, '127.0.0.1', () => console.log(`Proxy running at http://localhost:${PORT}`));
+}).listen(PORT, '0.0.0.0', () => console.log(`Proxy running at http://localhost:${PORT}`));
